@@ -20,5 +20,5 @@ jobs:
         with:
           app-name: 'YS-Webapps' # Replace with your app's name
           slot-name: 'Production'
-          publish-profile: ${{ AZUREAPPSERVICE_PUBLISHPROFILE_46E9D2D8FDEF46F78997F8AACABF3AFD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_46E9D2D8FDEF46F78997F8AACABF3AFD }}
           package: .
